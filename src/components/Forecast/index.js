@@ -26,13 +26,13 @@ export default function Forecast({ data }) {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#FFF",
-    marginLeft: 12,
+    marginRight: 12,
     borderRadius: 8,
     paddingTop: 10,
     paddingBottom: 10,
     paddingLeft: 14,
     paddingRight: 14,
-    justifyContent: "space-around",
+    justifyContent: 'space-around',
     alignItems: "center",
   },
   date: {
